@@ -1,0 +1,30 @@
+.rodape{
+    display: grid;
+        height: 100%;
+        width: 100%;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(3, 4vw);
+        grid-column-gap: 10px;
+        grid-row-gap: 5px;
+       background-color: #c3c3c3;
+    }
+     .col1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+     }
+     .col4{
+        grid-column-start: 6;
+        grid-column-end: 7;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        cursor: pointer;
+     }
+     .tele_img{
+        grid-column-start: 6;
+        grid-column-end: 6;
+        grid-row-start: 3;
+        grid-row-end: 3;
+        font-size: 20px;
+     }

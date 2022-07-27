@@ -1,0 +1,11 @@
+.mat-toolbar-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 97px;
+    background-color: #c3c3c3;
+}
+.logo img{
+    height: 20px;
+    right: 2px;
+}

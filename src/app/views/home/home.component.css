@@ -1,0 +1,61 @@
+#banner-home{
+    height: 1px;
+    background-size: cover;
+    margin-top: 1px;
+    background-color: gray;
+}
+#banner-home img{
+    background-size: cover;
+    max-width:1350px;
+    max-height:550px;
+    width: auto;
+    height: auto;
+    background-repeat: no-repeat;
+}
+
+
+.texto-home h1{
+    display: block;
+    font-size: 90px;
+    margin-bottom: 40px;
+    width: 75%;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    right: 12%;
+    color: white;
+}
+.texto-home p{
+    display: block;
+    font-size: 35px;
+    margin-bottom: 40px;
+    width: 75%;
+    position: absolute;
+    top: 380px;
+    text-align: center;
+    right: 12%;
+    color: white;
+}
+.posiçao{
+    justify-content: center;
+    align-items: center;
+    height: 1px;
+    font-size: 20px;
+
+}
+#banner-home .btn{
+    background-size: cover;
+    position: absolute;
+    top: 210px;
+    box-shadow: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    right: 50%;
+}
+
+.texto-home{
+    font-size: 40px;
+    align-items: center;
+   color: white;
+}
